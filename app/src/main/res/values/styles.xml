@@ -1,10 +1,19 @@
 <resources>
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    
+    <style name="MyStyle" parent="BackGroundStyle">
+        <item name="android:textSize">50sp</item>
+        <item name="android:textColor">@color/myColorAccent</item>
+    </style>
+
+    <style name="BackGroundStyle">
+        <item name="android:background">#FFEFB112</item>
     </style>
 
 </resources>
